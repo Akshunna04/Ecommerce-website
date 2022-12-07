@@ -1,0 +1,146 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+     background-color: ;
+    
+    }
+    
+    
+    
+    
+    
+    .column {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+    
+    .about-section {
+      padding: 1px;
+      text-align: center;
+      background-color: #474e5d;
+      color: blacks;
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: grey;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="C:\Users\HP\Documents\CSEPROJECT32612209532\acer moniter.webp" alt="camera" style="width:85%">
+          <div class="container">
+            <h3>Canon EOS 3000D DSLR Camera 1 Camera Body, 18 - 55 mm Lens  (Black)#JustHere</h3>
+            <p class="title"><span>Special Rate</span></p>
+            <h2>₹8,999</h2>
+            <p>Description:
+                           If you are a photography enthusiast, then the Canon EOS 3000D DSLR Camera is a must-have gadget. Featuring an 18 MP (APS-C) CMOS sensor and the DIGIC 4+ imaging processor, you can capture amazing photos of your subject at all times, even in low-light conditions. Moreover, the remote Live View function lets you control this camera remotely using your smartphone so you can capture amazing photos even from a distance.</p>
+            <!-- <p></p> -->
+            <p><button class="button">ADD TO CART</button></p>
+            <p><button class="button">BUY NOW</button></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="C:\Users\HP\Documents\CSEPROJECT32612209532\asus 2.webp" alt="Josh" style="width:85%">
+          <div class="container">
+            <h3>SONY ZV-E10L Mirrorless Camera Interchangeable-lens Vlog Camera  (Black)</h3>
+            <p class="title"><span>Special Rate</span></p>
+            <h2>₹49,999</h2>
+            <p>Description:
+               Smart Zoom (Still Images): M: Approx. 1.4x, S: Approx. 2x, Digital Zoom (Still Images): L: Approx. 4x, M: Approx. 5.7x, S: Approx. 8x, Digital Zoom (Movie): Approx. 4x</p>
+            <!-- <p></p> -->
+            <p><button class="button">ADD TO CART</button></p>
+            <p><button class="button">BUY NOW</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">g
+          <img src="C:\Users\HP\Documents\CSEPROJECT32612209532\dell moniter.webp" alt="Josh" style="width:85%">
+          <div class="container">
+            <h3>SONY ILCE-6100Y/B IN5 Mirrorless Camera with 16-50 mm & 55-210 mm Zoom Lenses  (Black)</h3>
+            <p class="title"><span>Special Rate</span></p>
+            <h2>₹12,999</h2>
+            <p>Description:
+                Featuring a 24.2-megapixel Exmor CMOS image sensor and the BIONZ X image processor, this mirrorless camera from Sony offers low-noise performance to ensure that your images are crystal clear. It also takes advantage of the AF Tracking Technology, so you can even click pictures of moving objects without any hassle.</p>
+            <!-- <p></p> -->
+            <p><button class="button">ADD TO CART</button></p> 
+            <p><button class="button">BUY NOW</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="C:\Users\HP\Documents\CSEPROJECT32612209532\hp moniter.webp" alt="camera" style="width:85%">
+          <div class="container">
+            <h3>Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens  (Black)</h3>
+            <p class="title"><span>Special Rate</span></p>
+            <h2>₹12,799</h2>
+            <p>Description:
+                Scene Intelligent Auto, Hybrid Auto, Creative Assist, SCN(Self-Portrait, Portrait, Smooth Skin, Landscape, Sports, Close-up, Food, Panning, Handheld Night Scene, HDR Backlight Control, Silent Mode), Creative Filters (Grainy B/W, Soft Focus, Fish-eye Effect, Water painting effect, Toy Camera Effect, Miniature Effect , HDR Art Standard, Vivid, Bold, Embossed), Program AE , Shutter Priority AE, Aperture Priority AE, Manual Exposure, Movie (Movie Auto Exposure, Movie Manual Exposure, Time-lapse Movie)</p>
+            <!-- <p></p> -->
+            <p><button class="button">ADD TO CART</button></p>
+            <p><button class="button">BUY NOW</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </body>
+    </html>
